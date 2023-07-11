@@ -34,7 +34,7 @@ class Item:
         """
         Возвращает строковое представление экземпляров класса Item.
         """
-        return f"Item(name={self.name}, price={self.price}, quantity={self.quantity})"
+        return f"Item('{self.name}', {self.price}, {self.quantity})"
 
     def __str__(self):
         """
